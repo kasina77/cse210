@@ -10,21 +10,32 @@ class Program
 
 class Scripture
 {
-    getScripture;
+    static void Main(string[] args){
+        Console.WriteLine('5 Trust in the Lord with all your heart and lean not on your own understanding; 6 in all your ways submit to him, and he will make your paths straight.')
+    }
 
-    hideWord;
+ const void Main(string[] args){
+    string split = "5 Trust, in, the, Lord, with, all, your, heart, and, lean, not, on, your, own, understanding,; 6 in, all, your, ways, submit, to, him, and, he, will, make, your, paths, straight, Proverbs 3:5-6 .";
+    list<string> list = new list<string>();
+    list = split.Split(',').ToList();
+    foreach (var l in list)
+    {
+        Console.WriteLine(l);
+    }
+ }  
 
-    completelyHidden;
+
+
 }
 
-class Reference 
-{
+// class Reference 
+// { 
 
-}
+// }
 
-class Word 
-{
-    hideWord;
+// class Word 
+// {
+//     hideWord;
 
-    showWord;
-}
+//     showWord;
+// }
