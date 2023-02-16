@@ -1,0 +1,4 @@
+class WritingAssignment:MathAssignment,Assignment
+{
+    
+}
